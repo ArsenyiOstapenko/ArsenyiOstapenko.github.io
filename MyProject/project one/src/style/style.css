@@ -1,0 +1,415 @@
+nav{
+   width:100%;
+    height: 60px;
+    background-color: #344051;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    line-height: 55px;
+    padding-left: 300px;
+    float: left;
+}
+.menu{
+    float: left;
+     padding-left: 130px;
+}
+.menu li{
+    float: left;
+    line-height: 30px;
+    color: white;
+    margin-right: 60px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.main{
+    padding-top: 435px;
+/*    border-bottom: 2px solid gray;*/
+    height: 500px;
+    box-shadow: inset 0 0 5px 0;
+}
+.hello{
+    padding-left: 540px; 
+    font-size:45px;
+    margin: 0;
+    color: #2C384A;
+}
+.Iam{
+    padding-left: 403px;
+    font-size:45px;
+    margin: 0;
+    color: #2C384A;
+}
+.main h4{
+    padding-left: 460px;
+    font-size:25px;
+    margin: 0;
+    padding-top: 20px;
+    color: #717884;
+}
+.one{
+    margin-left: 455px; 
+    padding: 10px 7px 10px 7px;
+    font-size: 25px;
+}
+.two{
+    margin-left: 55px;
+    padding: 10px 7px 10px 7px;
+    font-size: 25px;
+}
+.main input{
+    margin-top: 35px;
+    border-radius: 15px;
+    color: #2C384A;
+    border-color: #2C384A;
+}
+.about-me{
+    height: 590px;
+}
+.about-me h2{
+    padding-left: 710px;
+    color: #2C384A;
+    font-size: 25px;
+}
+.foto-2{
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
+    margin-left: 652px;
+}
+.about-me p{
+    margin-left: 370px;
+    font-size: 19px;
+    color: #2C384A;
+}
+.button-download{
+    font-size: 25px;
+    padding: 10px 7px 10px 7px;
+    border-radius: 15px;
+    color: #2C384A;
+    border-color: #2C384A;
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.main-block-2 h2{
+    padding-left: 670px;
+    color: #2C384A;
+    font-size: 25px;
+}
+.mySkills{
+    display: flex;
+    margin-top: 100px;
+}
+.web{
+    margin-left: 200px;
+}
+.development{
+   padding-left: 125px; 
+}
+.SEO-optimization{
+    padding-left: 125px; 
+}
+.Marketing{
+    padding-left: 125px; 
+}
+.skill{
+    margin-left: 50px;
+}
+.allSkills{
+    margin-left: 30px;
+    font-size: 20px;
+    color: orange;
+}
+.CEO{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: orange;
+}
+.MAR{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: orange;
+}
+.name-case{
+    padding-left: 710px;
+    color: #2C384A;
+    font-size: 25px;
+}
+.Cases-lorem-1{
+    margin-left: 340px;
+    font-size: 18px;
+    color: #2C384A;
+}
+.fon-cases{
+    width: 900px;
+    height: 530px;
+    margin-left: 328px;
+}
+.infBlock-1 h2{
+    color: #2C384A;
+    padding-left: 330px;
+    margin: 0;
+}
+.infBlock-1 p{
+    padding-left: 330px;
+    font-size: 18px;
+    margin: 0;
+}
+.infBlock-1{
+    width: 500px;
+}
+.infBlock-2{
+    width: 500px;
+    padding-top: 25px;
+    margin: 0;
+}
+.infBlock-2 h2{
+    color: #2C384A;
+    padding-left: 330px;
+    margin: 0;
+}
+.infBlock-2 p{
+     padding-left: 330px;
+    font-size: 18px;
+    margin: 0;
+}
+.button-visit{
+    font-size: 25px;
+    margin-left: 327px;
+    margin-top: 15px;
+    color: white;
+    background-color: #63b5ae;
+    border-color: #63b5ae;
+    border-radius: 5px;
+}
+.name-object{
+    margin-left: 600px;
+    margin-top: -170px;
+}
+.name-object h3{
+    margin: 0;
+    font-size: 22px;
+    color: #2C384A;
+}
+.name-object p{
+    margin: 0;
+    font-size: 17px;
+    color: #2C384A;
+}
+.main-block-3{
+    height: 900px;
+}
+.Payment{
+    margin-left: 735px;
+    color: #2C384A;
+    font-size: 25px;
+}
+.coast-1 {
+    color: #2C384A;
+    margin-left: 400px;
+}
+.coast-1 select{
+    padding: 10px 750px 10px 15px; 
+    border-color: white;
+    font-size: 18px; 
+    color: gray;
+}
+.coast-2{
+    color: #2C384A;
+    margin-left: 400px;
+}
+.coast-2 select{
+    padding: 10px 750px 10px 15px; 
+    border-color: white;
+    font-size: 18px; 
+    color: gray;
+}
+.coast-3{
+    color: #2C384A;
+    margin-left: 400px;
+}
+.coast-3 select{
+     padding: 10px 750px 10px 15px; 
+     border-color: white;
+     font-size: 18px; 
+     color: gray;
+}
+.all{
+    width: 980px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    color: #2C384A;
+}
+.name-static{
+    margin-left: 680px;
+    color: #2C384A;
+}
+.static{
+    display: flex;
+    margin-left: 350px;
+}
+.static-1{
+    width: 200px;
+}
+.static-2{
+    margin-left: 50px;
+    width: 200px;
+}
+.static-3{
+     margin-left: 50px;
+     width: 200px;
+}
+.static-4{
+     margin-left: 50px;
+     width: 200px;
+}
+.number-1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C384A;
+    margin: 0;
+    padding-left: 75px;
+}
+.number-2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C384A;
+    margin: 0;
+    padding-top: 9px;
+    padding-left: 70px;
+}
+.number-3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C384A;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 75px;
+}
+.number-4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C384A;
+    margin: 0;
+    padding-left: 85px;
+}
+.task-1{
+    color: #2C384A;
+    margin: 0;
+}
+.task-2{
+    color: #2C384A;
+    margin: 0;
+    padding-left: 45px;
+}
+.task-3{
+    color: #2C384A; 
+    margin: 0;
+}
+.task-4{
+    color: #2C384A; 
+    margin: 0;
+    padding-left: 25px;
+}
+.static img{
+    padding-left: 70px;
+}
+.foto-3{
+    widows: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-top: 50px;
+    margin-left: 734px
+}
+.commend-all{
+    margin-top: 150px;
+}
+.commend-all h2{
+    margin-left: 760px;
+    color: #2C384A; 
+}
+.Lorem-5{
+    padding-top: 40px;
+    padding-left: 440px;
+    font-size: 18px;
+    color: #2C384A; 
+    margin: 0;
+}
+.Lorem-5-2{
+    padding-left: 570px;
+    font-size: 18px;
+    color: #2C384A; 
+    margin: 0;
+}
+.Andrey{
+    font-size: 18px;
+    margin-left: 620px;
+    color: #2C384A; 
+}
+.radio-1{
+    margin-left: 780px;
+}
+.commend-all input{
+    margin-top: 70px;
+}
+.my-contact{
+    margin-top: 20px;
+    margin-left: 715px;  
+    color: #2C384A; `
+}
+.lorem-7{
+    margin-top: 30px;
+    margin-left: 460px;
+    font-size: 18px;
+    color: #2C384A; `
+}
+.block-icon{
+    display: flex; 
+}
+.icon1{
+    margin-left: 480px;
+}
+.SanTown{
+    margin: 0;
+}
+.Nevskiy{
+    margin: 0;
+}
+.icon2{
+    margin-left: 100px;
+}
+.icon3{
+    margin-left: 100px;
+}
+.MyText{
+    margin-left: 640px;
+    color: #2C384A; `
+}
+.messenger{
+    display: block;
+}
+.area{
+    width: 700px;
+    margin-left: 450px;
+    margin-top: 25px;
+}
+.name{
+    margin-left: 450px;
+    width: 320px;
+    padding: 10px 0px 10px 5px;
+}
+.email{
+    width: 320px;
+    margin-left: 45px;
+    padding: 10px 0px 10px 5px;
+}
+.otpr{
+    margin-left: 750px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+}
