@@ -1,7 +1,14 @@
 nav{
-   width:100%;
+    width:100%;
     height: 60px;
     background-color: #344051;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transform: scale(1);
 }
 .logo{
     font-size: 30px;
@@ -22,11 +29,19 @@ nav{
     list-style-type: none;
     font-size: 15px;
 }
+.menu li a:hover{
+    color: orange;
+    transition: 0.2s;
+   
+}
+.menu li:active{
+     transform: scale(1.1);
+}
+
 .main{
     padding-top: 435px;
-/*    border-bottom: 2px solid gray;*/
     height: 500px;
-    box-shadow: inset 0 0 5px 0;
+    background:url("fon-1.png");
 }
 .hello{
     padding-left: 540px; 
@@ -67,15 +82,18 @@ nav{
     height: 590px;
 }
 .about-me h2{
-    padding-left: 710px;
+    text-align: center;
+    margin-left: 700px;
     color: #2C384A;
     font-size: 25px;
+    border-bottom: solid 3px orange;
+    width: 140px;
 }
 .foto-2{
     width: 220px;
     height: 220px;
     border-radius: 220px;
-    margin-left: 652px;
+    margin-left: 654px;
 }
 .about-me p{
     margin-left: 370px;
@@ -84,17 +102,25 @@ nav{
 }
 .button-download{
     font-size: 25px;
-    padding: 10px 7px 10px 7px;
+    padding: 10px 15px 10px 30px;
     border-radius: 15px;
     color: #2C384A;
     border-color: #2C384A;
     margin-left: 660px;
     margin-top: 30px;
+    width: 250px;
+    background-image: url("buton-download.png");
+    background-repeat: no-repeat;
+    background-position: 3% 45%;
+    background-size: 25px 25px;
 }
 .main-block-2 h2{
-    padding-left: 670px;
+    margin-left: 700px;
     color: #2C384A;
     font-size: 25px;
+    border-bottom: 3px solid orange;
+    width: 185px;
+    padding-top: 100px;
 }
 .mySkills{
     display: flex;
@@ -200,6 +226,7 @@ nav{
 }
 .main-block-3{
     height: 900px;
+    border-bottom: 1px solid;
 }
 .Payment{
     margin-left: 735px;
@@ -246,27 +273,42 @@ nav{
     color: #2C384A;
 }
 .name-static{
+    width: 310px;
     margin-left: 680px;
+    margin-top: 30px;
+    padding-top: 100px;
     color: #2C384A;
+    border-bottom: 3px solid orange;
 }
 .static{
+    width: 100%;
+    height: 400px;
     display: flex;
     margin-left: 350px;
+    padding-top: 50px;
+
+}
+.only-fon{
+        background: url("fon-5.png") no-repeat;
 }
 .static-1{
     width: 200px;
+    height: 150px;
 }
 .static-2{
     margin-left: 50px;
     width: 200px;
+    height: 150px;
 }
 .static-3{
      margin-left: 50px;
      width: 200px;
+     height: 150px;
 }
 .static-4{
      margin-left: 50px;
      width: 200px;
+     height: 150px;
 }
 .number-1{
     font-size: 30px;
@@ -355,40 +397,51 @@ nav{
     margin-left: 780px;
 }
 .commend-all input{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .my-contact{
+    width: 215px;
     margin-top: 20px;
     margin-left: 715px;  
-    color: #2C384A; `
+    color: white; 
+    padding-top: 35px;
+    border-bottom: solid 3px orange
 }
 .lorem-7{
     margin-top: 30px;
     margin-left: 460px;
     font-size: 18px;
-    color: #2C384A; `
+    color: white; `
 }
 .block-icon{
     display: flex; 
 }
 .icon1{
-    margin-left: 480px;
+    text-align: center;
+    width: 200px;
+    margin-left: 440px;
 }
 .SanTown{
     margin: 0;
+    color: white; 
 }
 .Nevskiy{
     margin: 0;
+    color: white; 
 }
 .icon2{
-    margin-left: 100px;
+    text-align: center;
+    width: 200px;
+    margin-left: 70px;
 }
 .icon3{
-    margin-left: 100px;
+    text-align: center;
+    width: 200px;
+    margin-left: 70px;
 }
 .MyText{
     margin-left: 640px;
-    color: #2C384A; `
+    color: white;
 }
 .messenger{
     display: block;
@@ -404,12 +457,66 @@ nav{
     padding: 10px 0px 10px 5px;
 }
 .email{
-    width: 320px;
+    width: 200px;
+    margin: 0;
+    color: white; 
+}
+.email-write{
     margin-left: 45px;
+    width: 320px;
     padding: 10px 0px 10px 5px;
 }
 .otpr{
     margin-left: 750px;
     margin-top: 20px;
     padding: 10px 15px 10px 15px;
+}
+.one:hover{
+    background-color:#2C384A;
+    color:white;
+    transition: 0.3s;
+}
+.one:active{
+    transform: scale(1.1)
+}
+.two:hover{
+    background-color:#2C384A;
+    color:white;
+    transition: 0.3s;
+}
+.two:active{
+    transform: scale(1.1);
+}
+.main-block-5{
+
+}
+.main-block-2{
+    height: 550px;
+    background-image: url("fon-2.png");
+}
+.button-download:hover{
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    background-image: none;
+    transition: 0.6s;
+}
+.main-block-6{
+    margin-top: 60px;
+    background: url("fon-4.jpg") no-repeat;
+    background-size: 1680px 700px; 
+    height: 700px;
+}
+.number{
+    color: white;
+    margin: 0;
+}
+.icon2 img{
+    margin: 0;
+}
+.icon3 img{
+    margin: 0;
+}
+.otpr{
+    background: opacity;
 }
