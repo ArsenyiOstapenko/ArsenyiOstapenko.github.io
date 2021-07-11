@@ -1,3 +1,7 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 nav{
     width:100%;
     height: 60px;
@@ -9,6 +13,7 @@ a{
     color: white;
     display: inline-block;
     transform: scale(1);
+    -webkit-animation: comming 3s;
 }
 .logo{
     font-size: 30px;
@@ -16,6 +21,7 @@ a{
     line-height: 55px;
     padding-left: 300px;
     float: left;
+    -webkit-animation: comming 3s;
 }
 .menu{
     float: left;
@@ -63,10 +69,11 @@ a{
     color: #717884;
 }
 .one{
-    margin-left: 455px; 
     padding: 10px 7px 10px 7px;
+    margin-left: 455px;
     font-size: 25px;
 }
+    
 .two{
     margin-left: 55px;
     padding: 10px 7px 10px 7px;
@@ -411,7 +418,7 @@ a{
     margin-top: 30px;
     margin-left: 460px;
     font-size: 18px;
-    color: white; `
+    color: white; 
 }
 .block-icon{
     display: flex; 
@@ -487,12 +494,16 @@ a{
 .two:active{
     transform: scale(1.1);
 }
-.main-block-5{
-
+.main-block-4{
+   background-image: url("paralax.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 500px 500px;
+   background-attachment: fixed;
 }
 .main-block-2{
     height: 550px;
-    background-image: url("fon-2.png");
+    background: url("fon-2.png") no-repeat;
 }
 .button-download:hover{
     color: white;
@@ -519,4 +530,33 @@ a{
 }
 .otpr{
     background: opacity;
+}
+.contact-img-footer{
+    margin-top: 55px;
+}
+.facebook{
+    margin-left:640px;
+}
+.twiter{
+    padding-left: 30px;
+}
+.brauzer{
+    padding-left: 30px;
+}
+.hello-kity{
+    padding-left: 30px;
+}
+.instagram{
+    padding-left: 30px;
+}
+.in{
+    padding-left: 30px; 
+}
+@keyframes comming{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
 }
